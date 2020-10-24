@@ -5,9 +5,9 @@ namespace FlowerStore.Model
 {
     public interface IOrder
     {
-        public Client Client { get; set; }
-        public Service Service { get; set; }
-        public DateTime OrderDate { get; set; }
+        Client Client { get; set; }
+        Service Service { get; set; }
+        DateTime OrderDate { get; set; }
     }
 
     public class OrderByAddress : IOrder

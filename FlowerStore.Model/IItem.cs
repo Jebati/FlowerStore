@@ -6,8 +6,8 @@ namespace FlowerStore.Model
 {
     public interface IItem
     {
-        public string Name { get; set; }
-        public float Price { get; set; }
-        public Image[] Images { get; set; }
+        string Name { get; set; }
+        float Price { get; set; }
+        Image[] Images { get; set; }
     }
 }
